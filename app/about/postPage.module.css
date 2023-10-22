@@ -1,0 +1,16 @@
+.gradientText {
+  background-image: linear-gradient(120deg, #2980b9, #a36dfa);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: gradientAnimation 3s infinite linear;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
